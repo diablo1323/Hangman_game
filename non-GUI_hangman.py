@@ -100,7 +100,8 @@ def hangman(secretWord):
     print ('Welcome to the game Hangman!')
     print ('I am thinking of a word that is '+str(n)+' letters long.')
     print ('------------')
-    count = 8
+    count = 6
+    
     lettersGuessed = []
     while count>0:
         if isWordGuessed(secretWord, lettersGuessed):
